@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SeaFood</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Rubik:wght@400;500;600;700&family=Shadows+Into+Light&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png" media="min-width(768px)">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-bg.png" media="min-width(768px)">
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1>
+        <a href="#" class="logo">SeaFood<span class="span">.</span></a>
+      </h1>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="nav-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#about" class="navbar-link" data-nav-link>About Us</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#food-menu" class="navbar-link" data-nav-link>Products</a>
+          </li>
+
+      
+
+          <li class="nav-item">
+            <a href="#footer" class="navbar-link" data-nav-link>Contact Us</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="header-btn-group">
+        <button class="search-btn" aria-label="Search" data-search-btn>
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+
+        <button class="nav-toggle-btn" aria-label="Toggle Menu" data-menu-toggle-btn>
+          <span class="line top"></span>
+          <span class="line middle"></span>
+          <span class="line bottom"></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <!-- 
+    - #SEARCH BOX
+  -->
+
+  <div class="search-container" data-search-container>
+
+    <div class="search-box">
+      <input type="search" name="search" aria-label="Search here" placeholder="Type keywords here..."
+        class="search-input">
+
+      <button class="search-submit" aria-label="Submit search" data-search-submit-btn>
+        <ion-icon name="search-outline"></ion-icon>
+      </button>
+    </div>
+
+    <button class="search-close-btn" aria-label="Cancel search" data-search-close-btn></button>
+
+  </div>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home" style="background-image: url('./assets/images/bg.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">Eat Healthy</p>
+
+            <h2 class="h1 hero-title">Supper delicious Sea Food in town!</h2>
+
+          
+<br><br><br><br><br><br><br><br><br>
+          </div>
+
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROMO
+      -->
+
+      <section class="section section-divider white promo">
+        <div class="container">
+
+          <ul class="promo-list has-scrollbar">
+
+
+            <li class="promo-item">
+              <div class="promo-card">
+
+                <h3 class="h3 card-title">Black Tiger</h3>
+
+                <p class="card-text">
+                  Food is any substance consumed to provide nutritional support for an organism.
+                </p>
+
+                <img style="object-fit: cover; border-radius: 50%;" src="./assets/images/promo2.jpg" width="300" height="300" loading="lazy" alt="Soft Drinks"
+                  class="w-100 card-banner">
+
+              </div>
+            </li>
+
+            <li class="promo-item">
+              <div class="promo-card">
+
+                <h3 class="h3 card-title">Vannamieshrimp</h3>
+
+                <p class="card-text">
+                  Food is any substance consumed to provide nutritional support for an organism.
+                </p>
+
+                <img style="object-fit: cover; border-radius: 50%;"  src="./assets/images/vannamieshrimp.jpg" width="300" height="300" loading="lazy" alt="French Fry"
+                  class="w-100 card-banner">
+
+              </div>
+            </li>
+
+            <li class="promo-item">
+              <div class="promo-card">
+
+        
+                <h3 class="h3 card-title">Rock LOBSTERS</h3>
+
+                <p class="card-text">
+                  Food is any substance consumed to provide nutritional support for an organism.
+                </p>
+
+                <img style="object-fit: cover; border-radius: 50%;"  src="./assets/images/lobster.jpg" width="300" height="300" loading="lazy" alt="Burger Kingo"
+                  class="w-100 card-banner">
+
+              </div>
+            </li>
+
+            <li class="promo-item">
+              <div class="promo-card">
+
+          
+
+                <h3 class="h3 card-title">Emperor FISH</h3>
+
+                <p class="card-text">
+                  Food is any substance consumed to provide nutritional support for an organism.
+                </p>
+
+                <img style="object-fit: cover; border-radius: 50%;"  src="./assets/images/promo5.jpg" width="300" height="300" loading="lazy" alt="Chicken Masala"
+                  class="w-100 card-banner">
+
+              </div>
+            </li>
+
+            <li class="promo-item">
+              <div class="promo-card">
+
+          
+                <h3 class="h3 card-title">Indian SQUID</h3>
+
+                <p class="card-text">
+                  Food is any substance consumed to provide nutritional support for an organism.
+                </p>
+
+                <img style="object-fit: cover; border-radius: 50%;" src="./assets/images/promo1.jpg" width="300" height="300" loading="lazy" alt="Maxican Pizza"
+                  class="w-100 card-banner">
+
+              </div>
+            </li>
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section section-divider gray about" id="about">
+        <div class="container">
+
+          <div class="about-banner">
+            <img src="./assets/images/seafood-2048x1366.jpg" width="509" height="459" loading="lazy" alt="Burger with Drinks"
+              class="w-100 about-img">
+
+         
+          </div>
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title">
+              Best Class Sea Foods
+              <span class="span">in Town!</span>
+            </h2>
+
+            <p class="section-text">
+              We started off with the Exports, and evolved to setting up COMPANY NAME in the year 1997. Currently, we are one of the largest fresh & live seafood exporter based out of India. When it comes to seafood knowledge and innovation in the seafood industry, we have a reputation that is unparalleled.
+            </p>
+
+            <ul class="about-list">
+
+              <li class="about-item">
+                <ion-icon name="checkmark-outline"></ion-icon>
+
+                <span class="span">Delicious & Healthy Foods</span>
+              </li>
+
+              <li class="about-item">
+                <ion-icon name="checkmark-outline"></ion-icon>
+
+                <span class="span">Spacific Family And Kids Zone</span>
+              </li>
+
+              <li class="about-item">
+                <ion-icon name="checkmark-outline"></ion-icon>
+
+                <span class="span">Clean & Hygine Facilities</span>
+              </li>
+
+              <li class="about-item">
+                <ion-icon name="checkmark-outline"></ion-icon>
+
+                <span class="span">Fastest Delivery</span>
+              </li>
+
+            </ul>
+
+            <button class="btn btn-hover">Order Now</button>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FOOD MENU
+      -->
+
+      <section class="section food-menu" id="food-menu">
+        <div class="container">
+
+          <p class="section-subtitle">Popular Sea Foods</p>
+
+          <h2 class="h2 section-title">
+            Our Delicious <span class="span">Foods</span>
+          </h2>
+
+          <p class="section-text">
+            Food is any substance consumed to provide nutritional support for an organism.
+          </p>
+
+
+          <ul class="food-menu-list">
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <img src="./assets/images/lobster.jpg" width="300" height="300" loading="lazy"
+                    alt="Fried Chicken Unlimited" class="w-100">
+
+                  <div class="badge">-15%</div>
+
+                  
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Mollusks</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Lobster</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Price:</p>
+
+                  <data class="price">$49.00</data>
+
+                  <del class="del" value="69.00">$69.00</del>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <img src="./assets/images/promo2.jpg" width="300" height="300" loading="lazy"
+                    alt="Burger King Whopper" class="w-100">
+
+                  <div class="badge">-10%</div>
+
+                  
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Mollusks</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Black Tiger</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Price:</p>
+
+                  <data class="price" value="29.00">$29.00</data>
+
+                  <del class="del">$39.00</del>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <img src="./assets/images/promo1.jpg" width="300" height="300" loading="lazy"
+                    alt="White Castle Pizzas" class="w-100">
+
+                  <div class="badge">-25%</div>
+
+                  
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Freshwater Fish</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Squid</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Price:</p>
+
+                  <data class="price" value="49.00">$49.00</data>
+
+                  <del class="del">$69.00</del>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <img src="./assets/images/yellowfintuna.jpg" width="300" height="300" loading="lazy"
+                    alt="Bell Burrito Supreme" class="w-100">
+
+                  <div class="badge">-20%</div>
+
+                  
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Freshwater Fish</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Yellowfintuna</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Price:</p>
+
+                  <data class="price" value="59.00 ">$59.00</data>
+
+                  <del class="del">$69.00</del>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <img src="./assets/images/vannamieshrimp.jpg" width="300" height="300" loading="lazy"
+                    alt="Kung Pao Chicken BBQ" class="w-100">
+
+                  <div class="badge">-5%</div>
+
+                  
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Shellfish</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Vannamieshrimp</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Price:</p>
+
+                  <data class="price" value="49.00">$49.00</data>
+
+                  <del class="del">$69.00</del>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <img src="./assets/images/redsnapper.jpg" width="300" height="300" loading="lazy"
+                    alt="Wendy's Chicken" class="w-100">
+
+                  <div class="badge">-15%</div>
+
+                  
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Saltwater Fish</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Redsnapper</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Price:</p>
+
+                  <data class="price" value="49.00">$49.00</data>
+
+                  <del class="del">$69.00</del>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="section section-divider white cta" style="background-image: url('./assets/images/hero-bg.jpg')">
+        <div class="container">
+
+          <div class="cta-content">
+
+            <h2 class="h2 section-title">
+              The SeaFood Have Excellent Of
+              <span class="span">Quality Sea Foods!</span>
+            </h2>
+
+            <p class="section-text">
+              The restaurants in Hangzhou also catered to many northern Chinese who had fled south from Kaifeng during
+              the Jurchen
+              invasion of the 1120s, while it is also known that many restaurants were run by families.
+            </p>
+
+            <button class="btn btn-hover">Order Now</button>
+          </div>
+
+          <figure class="cta-banner" style="display: flex;justify-content: center;align-items: center;">
+            <img  style="width: 50%; height: 50%; object-fit: cover; border-radius: 50%;"  src="./assets/images/promo2.jpg" width="700" height="637" loading="lazy" alt="Burger"
+              class="w-100 cta-img">
+
+            <img src="./assets/images/sale-shape.png" width="216" height="226" loading="lazy"
+              alt="get up to 50% off now" class="abs-img scale-up-anim">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #DELIVERY
+      -->
+
+      <section class="section section-divider gray delivery">
+        <div class="container">
+
+          <div class="delivery-content">
+
+            <h2 class="h2 section-title">
+              A Moments Of Delivered On <span class="span">Right Time</span> & Place
+            </h2>
+
+            <p class="section-text">
+              The restaurants in Hangzhou also catered to many northern Chinese who had fled south from Kaifeng during
+              the Jurchen
+              invasion of the 1120s, while it is also known that many restaurants were run by families.
+            </p>
+
+            <button class="btn btn-hover">Order Now</button>
+          </div>
+
+          <figure class="delivery-banner">
+            <img src="./assets/images/delivery-banner-bg.png" width="700" height="602" loading="lazy" alt="clouds"
+              class="w-100">
+
+            <img src="./assets/images/delivery-boy.svg" width="1000" height="880" loading="lazy" alt="delivery boy"
+              class="w-100 delivery-img" data-delivery-boy>
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section section-divider white testi">
+        <div class="container">
+
+          <p class="section-subtitle">Testimonials</p>
+
+          <h2 class="h2 section-title">
+            Our Customers <span class="span">Reviews</span>
+          </h2>
+
+          <p class="section-text">
+            Food is any substance consumed to provide nutritional
+            support for an organism.
+          </p>
+
+          <ul class="testi-list has-scrollbar">
+
+            <li class="testi-item">
+              <div class="testi-card">
+
+                <div class="profile-wrapper">
+
+                  <figure class="avatar">
+                    <img src="./assets/images/avatar-1.jpg" width="80" height="80" loading="lazy" alt="Robert William">
+                  </figure>
+
+                  <div>
+                    <h3 class="h4 testi-name">Robert William</h3>
+
+                    <p class="testi-title">CEO Kingfisher</p>
+                  </div>
+
+                </div>
+
+                <blockquote class="testi-text">
+                  "I would be lost without restaurant. I would like to personally thank you for your outstanding
+                  product."
+                </blockquote>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testi-item">
+              <div class="testi-card">
+
+                <div class="profile-wrapper">
+
+                  <figure class="avatar">
+                    <img src="./assets/images/avatar-2.jpg" width="80" height="80" loading="lazy" alt="Thomas Josef">
+                  </figure>
+
+                  <div>
+                    <h3 class="h4 testi-name">Thomas Josef</h3>
+
+                    <p class="testi-title">CEO Getforce</p>
+                  </div>
+
+                </div>
+
+                <blockquote class="testi-text">
+                  "I would be lost without restaurant. I would like to personally thank you for your outstanding
+                  product."
+                </blockquote>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testi-item">
+              <div class="testi-card">
+
+                <div class="profile-wrapper">
+
+                  <figure class="avatar">
+                    <img src="./assets/images/avatar-3.jpg" width="80" height="80" loading="lazy" alt="Charles Richard">
+                  </figure>
+
+                  <div>
+                    <h3 class="h4 testi-name">Charles Richard</h3>
+
+                    <p class="testi-title">CEO Angela</p>
+                  </div>
+
+                </div>
+
+                <blockquote class="testi-text">
+                  "I would be lost without restaurant. I would like to personally thank you for your outstanding
+                  product."
+                </blockquote>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+      <!-- 
+        - #BANNER
+      -->
+
+      <!-- <section class="section section-divider gray banner">
+        <div class="container">
+
+          <ul class="banner-list">
+
+            <li class="banner-item banner-lg">
+              <div class="banner-card">
+
+                <img src="./assets/images/banner-1.jpg" width="550" height="450" loading="lazy"
+                  alt="Discount For Delicious Tasty Burgers!" class="banner-img">
+
+                <div class="banner-item-content">
+                  <p class="banner-subtitle">50% Off Now!</p>
+
+                  <h3 class="banner-title">Discount For Delicious Tasty Burgers!</h3>
+
+                  <p class="banner-text">Sale off 50% only this week</p>
+
+                  <button class="btn">Order Now</button>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="banner-item banner-sm">
+              <div class="banner-card">
+
+                <img src="./assets/images/banner-2.jpg" width="550" height="465" loading="lazy" alt="Delicious Pizza"
+                  class="banner-img">
+
+                <div class="banner-item-content">
+                  <h3 class="banner-title">Delicious Pizza</h3>
+
+                  <p class="banner-text">50% off Now</p>
+
+                  <button class="btn">Order Now</button>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="banner-item banner-sm">
+              <div class="banner-card">
+
+                <img src="./assets/images/banner-3.jpg" width="550" height="465" loading="lazy" alt="American Burgers"
+                  class="banner-img">
+
+                <div class="banner-item-content">
+                  <h3 class="banner-title">American Burgers</h3>
+
+                  <p class="banner-text">50% off Now</p>
+
+                  <button class="btn">Order Now</button>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="banner-item banner-md">
+              <div class="banner-card">
+
+                <img src="./assets/images/banner-4.jpg" width="550" height="220" loading="lazy" alt="Tasty Buzzed Pizza"
+                  class="banner-img">
+
+                <div class="banner-item-content">
+                  <h3 class="banner-title">Tasty Buzzed Pizza</h3>
+
+                  <p class="banner-text">Sale off 50% only this week</p>
+
+                  <button class="btn">Order Now</button>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+ -->
+
+
+
+
+     
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" id="footer">
+
+    <div class="footer-top" style="background-image: url('./assets/images/footer-illustration.png')">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="" class="logo">SeaFood<span class="span">.</span></a>
+
+          <p class="footer-text">
+            Financial experts support or help you to to find out which way you can raise your funds more.
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contact Info</p>
+          </li>
+
+          <li>
+            <p class="footer-list-item">+91 PHONE NUMBER</p>
+          </li>
+
+          <li>
+            <p class="footer-list-item">info@gmail.com</p>
+          </li>
+
+          <li>
+            <address class="footer-list-item">ADDRESS</address>
+          </li>
+
+        </ul>
+
+     
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright-text">
+          &copy; 2023 <a href="https://krdeveloper.web.app/" target="_blank" class="copyright-link">KR</a> All Rights Reserved.
+        </p>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
